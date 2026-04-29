@@ -347,4 +347,4 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
 # --- CHÂN TRANG ---
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Hà Thị Thiệp - Trường TH Đông An - ĐT: 0383 935 728</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Nguyễn Thị Chiên - Trường TH Yên Long - ĐT: 0943 370 400</div>", unsafe_allow_html=True)
