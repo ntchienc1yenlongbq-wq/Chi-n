@@ -191,7 +191,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (NLS)</h1>
-    <p>Tác giả: Hà Thị Thiệp - Trường TH Đông An - ĐT: 0383 935 728</p>
+    <p>Tác giả: Nguyễn Thị Chiên - Trường TH Yên Long - ĐT: 0943 370 400</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -249,7 +249,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
     else:
         try:
             with st.spinner('AI đang soạn giáo án (Times New Roman 14pt, A4, Căn lề chuẩn)...'):
-                model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-09-2025')
+                model = genai.GenerativeModel('gemini-3.1-flash-lite-preview')
                 
                 # --- PROMPT CHI TIẾT CỦA THẦY (BẢN GỐC ĐẦY ĐỦ) ---
                 prompt_instruction = f"""
